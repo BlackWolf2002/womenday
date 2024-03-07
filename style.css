@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #9a137b34, #e029af33), url(bgrMail.jpg);
+  background: linear-gradient(to right, #33169334, #3a17ae33), url(bgrMail.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -85,9 +85,9 @@ body {
   left: 0%;
   top: 0%;
   animation: rotate-one calc(var(--i) * 1s) linear infinite;
-  border-bottom: 4px solid red;
-  border-right: 4px solid red;
-  filter: drop-shadow(0 0 5px red) drop-shadow(0 0 5px red);
+  border-bottom: 4px solid #355db8;
+  border-right: 4px solid #355db8;
+  filter: drop-shadow(0 0 5px #355db8) drop-shadow(0 0 5px #355db8);
 }
 .inner.one::before {
   position: absolute;
